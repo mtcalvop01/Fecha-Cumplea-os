@@ -4,6 +4,11 @@
 
   const inputFecha = document.createElement("input");
   inputFecha.type = "date";
+  inputFecha.id = "input";
+
+  const h2 = document.createElement("h2");
+  h2.id = "h2";
+  h2.innerText = "Introduce una fecha y te dirá cuanto queda para que llegue";
 
   const dias = document.createElement("h2");
   dias.id = "dias";
@@ -21,6 +26,7 @@
   contador.id = "contador";
 
   document.body.appendChild(titulo);
+  document.body.appendChild(h2);
   document.body.appendChild(inputFecha);
   document.body.appendChild(contador);
   contador.appendChild(dias);

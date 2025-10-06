@@ -4,3 +4,29 @@
     padding: 0;
 }
 
+#titulo{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgb(187, 187, 244);
+    color: rgb(55, 16, 92);
+}
+
+#input{
+    margin-top: 4%;
+    margin-left: 46%;
+}
+
+body{
+    background-color: rgb(186, 231, 216);
+}
+
+h2{
+    padding-top: 4%;
+    text-align: center;
+    color:rgb(38, 75, 76)
+}
+
+#contador{
+    margin-top: 5%;
+}
