@@ -67,6 +67,10 @@
       }
   }
 
+  inputFecha.value = "2025-10-20";
+
+  actualizarContador(inputFecha.value);
+  
   // Actualizar cada segundo
   setInterval(() => {
       if (inputFecha.value) {
